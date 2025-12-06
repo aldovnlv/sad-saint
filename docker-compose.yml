@@ -1,7 +1,7 @@
 services:
   sadserver_acevedo_rosas_maria_guadalupe:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_acevedo_rosas_maria_guadalupe
     hostname: sadserver_acevedo_rosas_maria_guadalupe
     ports:
@@ -10,7 +10,7 @@ services:
 
   sadserver_aguilar_tepepa_monica:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_aguilar_tepepa_monica
     hostname: sadserver_aguilar_tepepa_monica
     ports:
@@ -19,7 +19,7 @@ services:
 
   sadserver_carmona_dominguez_maribel:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_carmona_dominguez_maribel
     hostname: sadserver_carmona_dominguez_maribel
     ports:
@@ -28,7 +28,7 @@ services:
 
   sadserver_colohua_colohua_maria_rosaura:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_colohua_colohua_maria_rosaura
     hostname: sadserver_colohua_colohua_maria_rosaura
     ports:
@@ -37,7 +37,7 @@ services:
 
   sadserver_cotlame_de_la_cruz_noelia:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_cotlame_de_la_cruz_noelia
     hostname: sadserver_cotlame_de_la_cruz_noelia
     ports:
@@ -46,7 +46,7 @@ services:
 
   sadserver_de_los_santos_de_la_cruz_fernando:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_de_los_santos_de_la_cruz_fernando
     hostname: sadserver_de_los_santos_de_la_cruz_fernando
     ports:
@@ -55,7 +55,7 @@ services:
 
   sadserver_garcia_cruz_set:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_garcia_cruz_set
     hostname: sadserver_garcia_cruz_set
     ports:
@@ -64,7 +64,7 @@ services:
 
   sadserver_guillen_rojas_magdiel:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_guillen_rojas_magdiel
     hostname: sadserver_guillen_rojas_magdiel
     ports:
@@ -73,7 +73,7 @@ services:
 
   sadserver_nesta_florentino_diego_alejandro:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_nesta_florentino_diego_alejandro
     hostname: sadserver_nesta_florentino_diego_alejandro
     ports:
@@ -82,7 +82,7 @@ services:
 
   sadserver_ramirez_flores_jose_manuel:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_ramirez_flores_jose_manuel
     hostname: sadserver_ramirez_flores_jose_manuel
     ports:
@@ -91,7 +91,7 @@ services:
 
   sadserver_rodriguez_rendon_ruth_mayte:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_rodriguez_rendon_ruth_mayte
     hostname: sadserver_rodriguez_rendon_ruth_mayte
     ports:
@@ -100,7 +100,7 @@ services:
 
   sadserver_tecomahua_gallardo_calixto:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_tecomahua_gallardo_calixto
     hostname: sadserver_tecomahua_gallardo_calixto
     ports:
@@ -109,7 +109,7 @@ services:
 
   sadserver_ailv:
     # image: debian:latest
-    build: /home/debian/docker-apps/sadservers/saint
+    build: /home/debian/docker-apps/sadservers/saint/Dockerfile
     container_name: sadserver_ailv
     hostname: sadserver_ailv
     ports:
