@@ -1,0 +1,117 @@
+services:
+  ACEVEDO_ROSAS_MARIA_GUADALUPE:
+    # image: debian:latest
+    build: .
+    container_name: ACEVEDO_ROSAS_MARIA_GUADALUPE
+    hostname: ACEVEDO_ROSAS_MARIA_GUADALUPE
+    ports:
+      - 12000:80
+    restart: unless-stopped
+
+  AGUILAR_TEPEPA_MONICA:
+    # image: debian:latest
+    build: .
+    container_name: AGUILAR_TEPEPA_MONICA
+    hostname: AGUILAR_TEPEPA_MONICA
+    ports:
+      - 12001:80
+    restart: unless-stopped
+
+  CARMONA_DOMINGUEZ_MARIBEL:
+    # image: debian:latest
+    build: .
+    container_name: CARMONA_DOMINGUEZ_MARIBEL
+    hostname: CARMONA_DOMINGUEZ_MARIBEL
+    ports:
+      - 12002:80
+    restart: unless-stopped
+
+  COLOHUA_COLOHUA_MARIA_ROSAURA:
+    # image: debian:latest
+    build: .
+    container_name: COLOHUA_COLOHUA_MARIA_ROSAURA
+    hostname: COLOHUA_COLOHUA_MARIA_ROSAURA
+    ports:
+      - 12003:80
+    restart: unless-stopped
+
+  COTLAME_DE_LA_CRUZ_NOELIA:
+    # image: debian:latest
+    build: .
+    container_name: COTLAME_DE_LA_CRUZ_NOELIA
+    hostname: COTLAME_DE_LA_CRUZ_NOELIA
+    ports:
+      - 12004:80
+    restart: unless-stopped
+
+  DE_LOS_SANTOS_DE_LA_CRUZ_FERNANDO:
+    # image: debian:latest
+    build: .
+    container_name: DE_LOS_SANTOS_DE_LA_CRUZ_FERNANDO
+    hostname: DE_LOS_SANTOS_DE_LA_CRUZ_FERNANDO
+    ports:
+      - 12005:80
+    restart: unless-stopped
+
+  GARCIA_CRUZ_SET:
+    # image: debian:latest
+    build: .
+    container_name: GARCIA_CRUZ_SET
+    hostname: GARCIA_CRUZ_SET
+    ports:
+      - 12006:80
+    restart: unless-stopped
+
+  GUILLEN_ROJAS_MAGDIEL:
+    # image: debian:latest
+    build: .
+    container_name: GUILLEN_ROJAS_MAGDIEL
+    hostname: GUILLEN_ROJAS_MAGDIEL
+    ports:
+      - 12007:80
+    restart: unless-stopped
+
+  NESTA_FLORENTINO_DIEGO_ALEJANDRO:
+    # image: debian:latest
+    build: .
+    container_name: NESTA_FLORENTINO_DIEGO_ALEJANDRO
+    hostname: NESTA_FLORENTINO_DIEGO_ALEJANDRO
+    ports:
+      - 12008:80
+    restart: unless-stopped
+
+  RAMIREZ_FLORES_JOSE_MANUEL:
+    # image: debian:latest
+    build: .
+    container_name: RAMIREZ_FLORES_JOSE_MANUEL
+    hostname: RAMIREZ_FLORES_JOSE_MANUEL
+    ports:
+      - 12009:80
+    restart: unless-stopped
+
+  RODRIGUEZ_RENDON_RUTH_MAYTE:
+    # image: debian:latest
+    build: .
+    container_name: RODRIGUEZ_RENDON_RUTH_MAYTE
+    hostname: RODRIGUEZ_RENDON_RUTH_MAYTE
+    ports:
+      - 12010:80
+    restart: unless-stopped
+
+  TECOMAHUA_GALLARDO_CALIXTO:
+    # image: debian:latest
+    build: .
+    container_name: TECOMAHUA_GALLARDO_CALIXTO
+    hostname: TECOMAHUA_GALLARDO_CALIXTO
+    ports:
+      - 12011:80
+    restart: unless-stopped
+
+  AILV:
+    # image: debian:latest
+    build: .
+    container_name: AILV
+    hostname: AILV
+    ports:
+      - 12012:80
+    restart: unless-stopped
