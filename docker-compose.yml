@@ -1,115 +1,115 @@
 services:
-  acevedo_rosas_maria_guadalupe:
+  sadserver_acevedo_rosas_maria_guadalupe:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: acevedo_rosas_maria_guadalupe
     hostname: acevedo_rosas_maria_guadalupe
     ports:
       - 12000:80
     restart: unless-stopped
 
-  aguilar_tepepa_monica:
+  sadserver_aguilar_tepepa_monica:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: aguilar_tepepa_monica
     hostname: aguilar_tepepa_monica
     ports:
       - 12001:80
     restart: unless-stopped
 
-  carmona_dominguez_maribel:
+  sadserver_carmona_dominguez_maribel:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: carmona_dominguez_maribel
     hostname: carmona_dominguez_maribel
     ports:
       - 12002:80
     restart: unless-stopped
 
-  colohua_colohua_maria_rosaura:
+  sadserver_colohua_colohua_maria_rosaura:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: colohua_colohua_maria_rosaura
     hostname: colohua_colohua_maria_rosaura
     ports:
       - 12003:80
     restart: unless-stopped
 
-  cotlame_de_la_cruz_noelia:
+  sadserver_cotlame_de_la_cruz_noelia:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: cotlame_de_la_cruz_noelia
     hostname: cotlame_de_la_cruz_noelia
     ports:
       - 12004:80
     restart: unless-stopped
 
-  de_los_santos_de_la_cruz_fernando:
+  sadserver_de_los_santos_de_la_cruz_fernando:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: de_los_santos_de_la_cruz_fernando
     hostname: de_los_santos_de_la_cruz_fernando
     ports:
       - 12005:80
     restart: unless-stopped
 
-  garcia_cruz_set:
+  sadserver_garcia_cruz_set:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: garcia_cruz_set
     hostname: garcia_cruz_set
     ports:
       - 12006:80
     restart: unless-stopped
 
-  guillen_rojas_magdiel:
+  sadserver_guillen_rojas_magdiel:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: guillen_rojas_magdiel
     hostname: guillen_rojas_magdiel
     ports:
       - 12007:80
     restart: unless-stopped
 
-  nesta_florentino_diego_alejandro:
+  sadserver_nesta_florentino_diego_alejandro:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: nesta_florentino_diego_alejandro
     hostname: nesta_florentino_diego_alejandro
     ports:
       - 12008:80
     restart: unless-stopped
 
-  ramirez_flores_jose_manuel:
+  sadserver_ramirez_flores_jose_manuel:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: ramirez_flores_jose_manuel
     hostname: ramirez_flores_jose_manuel
     ports:
       - 12009:80
     restart: unless-stopped
 
-  rodriguez_rendon_ruth_mayte:
+  sadserver_rodriguez_rendon_ruth_mayte:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: rodriguez_rendon_ruth_mayte
     hostname: rodriguez_rendon_ruth_mayte
     ports:
       - 12010:80
     restart: unless-stopped
 
-  tecomahua_gallardo_calixto:
+  sadserver_tecomahua_gallardo_calixto:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: tecomahua_gallardo_calixto
     hostname: tecomahua_gallardo_calixto
     ports:
       - 12011:80
     restart: unless-stopped
 
-  ailv:
+  sadserver_ailv:
     # image: debian:latest
-    build: .
+    build: /root/sadserver/Dockerfile
     container_name: ailv
     hostname: ailv
     ports:
